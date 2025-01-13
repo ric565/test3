@@ -1,5 +1,5 @@
-import sys
+import logging
 def test_true():
-    sys.stdout.write("I am here\n")
+    print("\nInside the test\n")
     assert(True, True)
 

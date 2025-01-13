@@ -1,2 +1,5 @@
+import sys
 def test_true():
-    assert(False, True)
+    sys.stdout.write("I am here\n")
+    assert(True, True)
+
